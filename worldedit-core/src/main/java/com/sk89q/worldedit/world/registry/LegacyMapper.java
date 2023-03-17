@@ -63,7 +63,7 @@ public final class LegacyMapper {
     //FAWE start
     private final Int2ObjectArrayMap<Integer> blockStateToLegacyId4Data = new Int2ObjectArrayMap<>();
     private final Int2ObjectArrayMap<Integer> extraId4DataToStateId = new Int2ObjectArrayMap<>();
-    private final int[] blockArr = new int[4096];
+    private final int[] blockArr = new int[16384];
     private final BiMap<Integer, ItemType> itemMap = HashBiMap.create();
     private final Map<String, String> blockEntries = new HashMap<>();
     //FAWE end
